@@ -1,0 +1,10 @@
+.card_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+    width: 90%;
+    min-height: 70vh;
+    margin: 0 auto;
+    margin-top: 50px;
+}

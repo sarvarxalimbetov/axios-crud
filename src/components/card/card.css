@@ -1,0 +1,33 @@
+.card_item{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.card_item p b{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.card_item button{
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    margin-right: 10px;
+    bottom: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.card_edit{
+    left: 10px;
+    border: 2px solid rgb(0, 255, 0);
+}
+
+.card_delete{
+    left: 120px;
+    border: 2px solid red;
+}
